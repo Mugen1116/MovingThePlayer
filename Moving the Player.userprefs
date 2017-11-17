@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{B0A24927-A756-AFAA-29DC-4166F14E608A}|">
-  <MonoDevelop.Ide.ItemProperties.Moving_220the_220Player.Editor.Plugins PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScriptsUsados/ThirdPersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScriptsUsados/PlayerHealth.cs">
     <Files>
-      <File FileName="Assets/ScriptsUsados/ThirdPersonController.cs" Line="210" Column="176" />
-      <File FileName="Assets/ScriptsUsados/ThirdPersonControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/ScriptsUsados/PlayerStabing.cs" Line="57" Column="14" />
+      <File FileName="Assets/ScriptsUsados/PlayerShooting.cs" Line="101" Column="82" />
+      <File FileName="Assets/ScriptsUsados/PlayerHealth.cs" Line="91" Column="34" />
+      <File FileName="Assets/ScriptsUsados/ThirdPersonController.cs" Line="213" Column="153" />
+      <File FileName="Assets/ScriptsUsados/ThirdPersonControl.cs" Line="18" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +14,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Moving_220the_220Player PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.ItemProperties.Moving_220the_220Player.Plugins PreferredExecutionTarget="Unity.Editor" />
   <MultiItemStartupConfigurations />
 </Properties>

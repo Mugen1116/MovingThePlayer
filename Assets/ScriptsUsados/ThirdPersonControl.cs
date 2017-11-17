@@ -13,6 +13,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
 
+       // private bool shoot;
+
+        //public void SetShoot ( bool isShooting ){
+        //    shoot = isShooting;
+        //}
 
         private void Start()
         {
@@ -35,11 +40,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void Update()
         {
+           
+
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
         }
+
 
 
         // Fixed update is called in sync with physics

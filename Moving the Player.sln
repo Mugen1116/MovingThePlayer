@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving the Player", "Moving
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving the Player.Plugins", "Moving the Player.Plugins.csproj", "{E8825A35-2802-2DE9-4336-541DACAA73A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving the Player.Editor", "Moving the Player.Editor.csproj", "{2D16DDA7-36D4-2215-E414-457C7AD67B1F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving the Player.Editor.Plugins", "Moving the Player.Editor.Plugins.csproj", "{EC1A0ABD-320C-C5A2-9404-777B4EEC0C42}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{E8825A35-2802-2DE9-4336-541DACAA73A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8825A35-2802-2DE9-4336-541DACAA73A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8825A35-2802-2DE9-4336-541DACAA73A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D16DDA7-36D4-2215-E414-457C7AD67B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D16DDA7-36D4-2215-E414-457C7AD67B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D16DDA7-36D4-2215-E414-457C7AD67B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D16DDA7-36D4-2215-E414-457C7AD67B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC1A0ABD-320C-C5A2-9404-777B4EEC0C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC1A0ABD-320C-C5A2-9404-777B4EEC0C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC1A0ABD-320C-C5A2-9404-777B4EEC0C42}.Release|Any CPU.ActiveCfg = Release|Any CPU

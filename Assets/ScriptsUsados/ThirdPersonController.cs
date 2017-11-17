@@ -16,6 +16,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         [SerializeField] float m_AnimSpeedMultiplier = 1f;
         [SerializeField] float m_GroundCheckDistance = 0.1f;
 
+        //Guardaar referencias publicas para eventos de animaciones
+        public PlayerShooting playerShoot;
+        public PlayerStabing playerStab;
+
         Rigidbody m_Rigidbody;
         Animator m_Animator;
         bool m_IsGrounded;
@@ -224,5 +228,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 m_Animator.applyRootMotion = false;
             }
         }
+
+        //=======FUNCIONES QUE SE USAN EN EVENTOS DE ANIMACIONES============
+        public void PlayEffects(){
+            playerShoot.PlayEffects();
+        }
+        public void PlayEffectsStab(){
+            playerStab.PlayEffects();
+        }
+        //===================END ANIM FUNCTIONS=============================
     }
 }
